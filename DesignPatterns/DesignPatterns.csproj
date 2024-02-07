@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="FactoryMethod\WoodHouseFactory.cs" />
+      <Compile Remove="FactoryMethod\SimpleFactoryMethod.cs" />
+      <Compile Remove="AbstractFactory\CakeFactory.cs" />
+      <Compile Remove="Buider\Usage.cs" />
+      <Compile Remove="SimpleFactory\ProductFactory.cs" />
+      <Compile Remove="SimpleFactory\Usage.cs" />
+      <Compile Remove="Patterns\ProductFactory.cs" />
+      <Compile Remove="Patterns\Usage.cs" />
+      <Compile Remove="FactoryMethod\Usage.cs" />
+      <Compile Remove="FactoryMethod\SimpleFactory.cs" />
+      <Compile Remove="FactoryMethod\FactoryMethod.cs" />
+      <Compile Remove="Buider\**" />
+      <Compile Remove="FactoryMethod\**" />
+      <Compile Remove="Prototype\**" />
+      <Compile Remove="AbstractFactory\Pie.cs" />
+      <Compile Remove="AbstractFactory\Usage.cs" />
+      <Compile Remove="AbstractFactory\AbstractFactory.cs" />
+      <Compile Remove="AbstractFactory\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Buider\**" />
+      <EmbeddedResource Remove="FactoryMethod\**" />
+      <EmbeddedResource Remove="Prototype\**" />
+      <EmbeddedResource Remove="AbstractFactory\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Buider\**" />
+      <None Remove="FactoryMethod\**" />
+      <None Remove="Prototype\**" />
+      <None Remove="AbstractFactory\**" />
+    </ItemGroup>
+
+</Project>
