@@ -1,4 +1,4 @@
-namespace DesignPatterns.Patterns;
+namespace DesignPatterns.Patterns.Creational;
 
 public abstract class AbstractProduct
 {
