@@ -1,6 +1,4 @@
 ﻿
-using DesignPatterns;
-using DesignPatterns.Patterns;
 using DesignPatterns.Patterns.Behavioral;
 using DesignPatterns.Patterns.Creational;
 using DesignPatterns.Patterns.Structural;
@@ -28,4 +26,9 @@ using DesignPatterns.Patterns.Structural;
 //UsageInterpreter.Usage();
 //UsageIterator.Usage();
 //UsageMediator.Usage();
-UsageMemento.Usage();
+//UsageMemento.Usage();
+//UsageObserver.Usage();
+//UsageState.Usage();
+//UsageStrategy.Usage();
+//UsageTemplateMethod.Usage();
+UsageVisitor.Usage();
